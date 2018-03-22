@@ -1,2 +1,0 @@
-# contactList
-Created with CodeSandbox
