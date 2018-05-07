@@ -24,7 +24,7 @@ class ContactAdd extends Component {
     const lastName = this.props.lastName;
     const jobTitle = this.props.jobTitle;
     const employer = this.props.employer;
-    //can make input component...
+
     return (
       <form name="create" onSubmit={this.onFormSubmit} className="input-group">
         <input
@@ -66,7 +66,5 @@ class ContactAdd extends Component {
     );
   }
 }
-
-//Field must be inside a component decorated with reduxForm()
 
 export default ContactAdd;

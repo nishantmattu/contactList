@@ -71,7 +71,6 @@ class ContactList extends Component {
 
   renderContacts() {
     let contacts = this.props.contacts;
-    //cannot update state during render state transition...no set state here...
 
     return _.map(contacts, contact => {
       return (

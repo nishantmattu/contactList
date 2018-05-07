@@ -18,9 +18,3 @@ const App = () => (
   </Provider>
 );
 render(<App />, document.getElementById("root"));
-// <BrowserRouter>
-//   <Switch>
-//     <Route exact path="/" component={ContactList} />
-//     <Route path="/add" component={ContactAdd} />
-//   </Switch>
-// </BrowserRouter>
